@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xc38c6f42dab082568396851df0118dccfbe7a935",
+  "SCAN_LINK": "https://etherscan.io/address/0xc38c6f42dab082568396851df0118dccfbe7a935",
+  "NETWORK": {
+    "NAME": "DOGECHAIN",
+    "SYMBOL": "WDOGE",
+    "ID": 2000
+  },
+  "NFT_NAME": "DigiDoge",
+  "SYMBOL": "DigiDoge",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST":  "10000000000000000",
+  "DISPLAY_COST": 0.075,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "",
+  "SHOW_BACKGROUND": true
+}

@@ -1,0 +1,725 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular'), url(./fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Poppins-Regular', 'sans-serif';
+  background-color: #050505;
+  color: white;
+  letter-spacing: 0.13em;
+}
+
+a {
+  font-family: 'Poppins-Regular', 'sans-serif';
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 65px;
+  font-weight: bold;
+  letter-spacing: 0.13em;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #E0FF65;
+  text-align: center;
+  letter-spacing: 0.13em;
+}
+
+@media (max-width: 2000px) {
+  .nav-item {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+  }
+
+  .navbar-brand {
+    width: 8rem;
+  }
+
+  .bg-dark {
+    background-color: transparent !important;
+  }
+
+  .container {
+    max-width: 1600px;
+  }
+
+  /*Header section Starts Here */
+
+  #Header{
+    margin-bottom: 10rem;
+  }
+
+  .spacing{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .header-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80%;
+  }
+
+  .socials-right{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 10%;
+    height: 100%;
+  }
+
+  .socials-right ul li{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .header-info {
+    width: 40%;
+    margin-top: 4rem;
+    position: relative;
+    z-index: 4;
+  }
+
+  .header-font {
+    color: #E0FF65;
+  }
+
+  .mint-btn {
+    margin-top: 3rem;
+    background: #74FFA6;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header-image {
+    width: 60%;
+    position: relative;
+    z-index: 2;
+    right: 105px;
+  }
+
+  /* Header section ends here */
+
+  /*About css starts here*/
+  #About {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .about-font {
+    font-size: 3rem;
+    color: #E0FF65;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 0.13em;
+  }
+
+  .about-info-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  /*About css ends here*/
+
+  /*Thirteen css starts here*/
+
+  #Thirteen {
+    margin-top: 5rem;
+  }
+
+  .thirteen-bg {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    left: 25%;
+  }
+
+  .thirteen-gallery {
+    position: relative;
+    z-index: 4;
+    margin-top: -30rem;
+    margin-bottom: 22rem;
+  }
+
+  .thirteen-gallery-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /*Thirteen css ends here*/
+
+  /*Rarity css starts here*/
+  #Rarity {
+    margin-top: 15rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .Carousel {
+    background-color: none;
+  }
+
+  .card {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Carousel img {
+    width: 75%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-card-width{
+    width:50%;
+  }
+
+  .rarity-subheading {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  /*Rarity css ends here*/
+
+  /*Story css starts here*/
+
+  .banner-image{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Story {
+    margin-top: 10rem;
+  }
+
+  .legend-info {
+    opacity: 0;
+    transform: translateZ(0);
+    transition: transform 2s ease-out, opacity 2s ease-out;
+    scrollbar-width: none;
+    will-change: transform, opacity;
+  }
+
+  .legend-info.visi {
+    opacity: 1;
+    transform: none;
+    transition: transform 2s ease-out, opacity 2s ease-out;
+    will-change: transform, opacity;
+  }
+
+  .legend-div {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .legend-div.visi {
+    height: 60vh;
+    transition: height 0.5s ease-in;
+    will-change: transform, opacity;
+  }
+
+  .story-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .legend-button{
+    background-color: transparent;
+    border: none;
+    color: #74FFA6;
+ }
+
+
+  /*Story css ends here*/
+
+  /*Team css starts here*/
+
+  #Team {
+    margin-top: 10rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .team-social-icon {
+    width: 1.5rem;
+  }
+
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-subheading {
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+
+  #Team .row .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /*Team css ends here*/
+
+  /*Certificate css starts here*/
+  #Certificate {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+
+  /*Certificate css ends here*/
+
+  /*Footer css begins*/
+
+  .footer-image-bg{
+    /* background-image: url("images/"); */  /*uncomment this to add image to the background*/
+    background-color: #010101;  /*remove this to add image*/
+    background-size: 100% 100%;
+  }
+
+  .footer-bg {
+    background-color: #d2ef5f;
+  }
+
+  .img-fluid2{
+    width: 100%;
+  }
+
+  .foot-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-logo-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+  .footer-socials {
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: end;
+  }
+
+  .footer-socials ul li {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .footer-text {
+    position: absolute;
+    left: 30px;
+  }
+  /*Footer css ends*/
+
+
+  
+/* ApeClub-Section start */
+
+.ApeClub .Logo img {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem 0;
+}
+
+.ApeClub .apeImages img {
+  border-radius: 0.5rem;
+}
+
+.ApeClub .apeSection .apeInfo {
+  background-color: #47404033;
+  border-radius: 0.5rem;
+  height: 100%;
+  padding: 0 3em 3em 3em;
+  margin-bottom: 99px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: color .35s ease-in-out,
+    background-color .35s ease-in-out,
+    border-color .35s ease-in-out,
+    box-shadow .35s ease-in-out;
+
+}
+
+
+.apeInfo p strong {
+  color: var(--White);
+}
+
+.apeInfo .mintData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(106.21deg, rgba(16, 170, 255, 0.62) 2.79%, rgba(8, 204, 251, 0.81) 21.04%, rgba(85, 142, 227, 0.84) 58.13%, #7450CD 95.19%);
+  box-shadow: 0px 4.15521px 24.9312px -1.0388px rgba(0, 0, 0, 0.25);
+  border-radius: 7.27161px;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  width: 100%
+}
+
+.apeInfo .mintData1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  width: 100%;
+  color: white;
+}
+
+.apeInfo .mintData>p {
+  
+  margin-bottom: 0;
+}
+
+.apeInfo .mintData>p>strong {
+  font-size: 1.375rem;
+  margin-right: 0.5rem;
+}
+
+.apeInfo .adding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apeInfo .adding .icon {
+  background-color: var(--White);
+  color: #74FFA6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.apeInfo .adding .icon:hover {
+  color: black;
+  background-color: #74FFA6;
+  border-color: #74FFA6;
+}
+
+.apeInfo .adding .icon i:hover {
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #74FFA6;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.apeInfo .adding .icon i {
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #74FFA6;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.apeInfo .adding input {
+  width: 100%;
+  height: 56px;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: unset;
+  outline: 0;
+  border: 1px solid var(--GrayPrimary);
+  color: white;
+  transition: all 250ms ease-in-out;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.apeInfo .adding input:focus {
+  border-color: var(--Pink);
+  box-shadow: 0 0 0 0.1rem var(--Pink);
+}
+
+.apeInfo .helpText {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.apeSection .order1{
+  width: 100%;
+}
+
+.apeInfo .btn {
+  color: black;
+  padding: 1rem 0;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.apeInfo .btn1 {
+  margin-top: 3rem;
+  background: #74FFA6;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.apeInfo .btn1 {
+color: black;
+}
+
+.apeInfo .btn:hover {
+  color: black;
+}
+
+.apeInfo .btn12 {
+  position: relative;
+  top: 8rem;
+  color: var(--Black);
+  padding: 1rem 0;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-bottom: -8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.apeInfo .btn12:hover {
+  color: black;
+
+}
+}
+
+/* lg - Screen */
+@media only screen and (max-width: 992px) {
+  .apeSection .apeInfo {
+    padding: 3.6rem 3rem !important;
+  }
+
+  body {
+    font-size: 0.7rem;
+  }
+
+  .sectionHeading {
+    font-size: 2.55rem;
+  }
+
+  /* md - Screen */
+  @media only screen and (max-width: 768px) {
+    .apeSection .apeInfo {
+      padding: 2rem !important;
+    }
+  }
+
+  /* sm - Screen */
+  @media only screen and (max-width: 576px) {
+    .banner-image{
+      width: 100%;
+    }
+
+    .header-container{
+      width: 100%;
+    }
+    .nav-item{
+      margin-left: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+    .special-font {
+      font-size: 1rem;
+    }
+    
+    .special-font2 {
+      font-size: 0.8rem;
+    }
+    
+    .special-font3 {
+      font-size: 2rem;
+      margin-left: 2rem;
+    }
+
+    .apeSection .apeInfo {
+      padding: 0.5rem !important;
+    }
+
+    body {
+      font-size: 1.5em;
+    }
+
+    .sectionHeading {
+      font-size: 4.75rem;
+    }
+  }
+}
+
+@media only screen and (max-width:400px) {
+
+  .header-back1 {
+    width: 100%;
+    top: 26rem;
+  }
+  
+}
+
+@media (max-width: 600px){
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 1rem;
+    line-height: 20px; 
+  }
+
+  .order1{
+    order: 1;
+  }
+
+  .order2{
+    order: 2;
+    margin-bottom: 4rem;
+  }
+
+  .thirteen-bg {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    left: 25%;
+  }
+
+  .header-info {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .header-image {
+    width: 100%;
+    right: 0px;
+  }
+
+  .socials-right{
+    z-index: 3;
+  }
+
+  .spacing-5{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .mob-center{
+    display: flex;
+    justify-content: center;
+  }
+
+  .socials-right ul{
+    margin-bottom: 14rem;
+  }
+
+  .socials-right ul li{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .thirteen-bg{
+    display: none;
+  }
+
+  .thirteen-gallery {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .thirteen-gallery-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #Rarity{
+    margin-top: 10rem;
+  }
+
+  .rarity-subheading{
+    width: 100%;
+  }
+
+  .carousel-card-width{
+    width:80%;
+  }
+
+  .team-subheading{
+    width: 100%;
+  }
+
+  #Team .row .col-md-3{
+    margin-top: 1rem;
+  }
+
+  .footer-logo-container{
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+
+  .footer-socials{
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-socials ul li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+  } 
+}
