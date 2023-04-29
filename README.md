@@ -18,3 +18,5 @@ To connect your wallet, simply follow the instructions on our platform. Once you
 Join our community of creators and collectors today and start minting your own NFTs on the Polygon blockchain! If you have any questions or need assistance, our support team is always here to help.
 
 
+![image](https://user-images.githubusercontent.com/121884963/235317791-e623f50a-9d7f-44e3-b8fa-8724757b98dd.png)
+![image](https://user-images.githubusercontent.com/121884963/235317796-0b48fc0c-5133-4c02-911c-f0c17395c5b1.png)
